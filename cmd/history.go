@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/anilgoudgunda/macclean/internal/cleaner"
+	"github.com/Anigunda/macclean/internal/cleaner"
 )
 
 var (

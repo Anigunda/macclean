@@ -1,6 +1,6 @@
 package main
 
-import "github.com/anilgoudgunda/macclean/cmd"
+import "github.com/Anigunda/macclean/cmd"
 
 func main() {
 	cmd.Execute()
