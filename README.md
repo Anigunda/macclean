@@ -2,9 +2,9 @@
 
 **Know what you're deleting.** macclean is a small Go CLI that scans your Mac for junk — caches, logs, temp files, trash, Xcode leftovers, and files from apps you already uninstalled — then cleans it **without guesswork**: every item gets a keep/delete recommendation with a reason, and anything you remove can go to a restorable quarantine instead of the void.
 
-<video src="docs/launch.mp4" controls="controls" muted="muted" playsinline style="max-width: 100%;"></video>
+![macclean in action — scan, keep/delete suggestions, and the interactive TUI](docs/preview.gif)
 
-[Can't see the video? Download it here (46s, 4.2 MB).](docs/launch.mp4)
+The product doing its thing — full launch film: **[docs/launch.mp4](docs/launch.mp4)** (46s).
 
 ## Why
 
