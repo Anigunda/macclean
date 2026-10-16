@@ -1,0 +1,9 @@
+# Built binary
+/macclean
+
+# macOS
+.DS_Store
+
+# Go
+*.test
+*.out
