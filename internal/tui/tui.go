@@ -12,7 +12,7 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 
-	"macclean/internal/cleaner"
+	"github.com/anilgoudgunda/macclean/internal/cleaner"
 )
 
 type stage int

@@ -7,8 +7,8 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 
-	"macclean/internal/cleaner"
-	"macclean/internal/tui"
+	"github.com/anilgoudgunda/macclean/internal/cleaner"
+	"github.com/anilgoudgunda/macclean/internal/tui"
 )
 
 var rootCmd = &cobra.Command{

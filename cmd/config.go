@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"macclean/internal/cleaner"
+	"github.com/anilgoudgunda/macclean/internal/cleaner"
 )
 
 var configInit bool

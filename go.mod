@@ -1,4 +1,4 @@
-module macclean
+module github.com/anilgoudgunda/macclean
 
 go 1.26.0
 

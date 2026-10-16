@@ -19,22 +19,22 @@
 
 ```bash
 # Apple Silicon
-curl -L -o macclean https://raw.githubusercontent.com/<USER>/macclean/main/release/macclean-darwin-arm64
+curl -L -o macclean https://raw.githubusercontent.com/anilgoudgunda/macclean/main/release/macclean-darwin-arm64
 # Intel Mac? use macclean-darwin-amd64 instead
 
 chmod +x macclean && sudo mv macclean /usr/local/bin/
 macclean scan
 ```
 
-(Also available on the [Releases page](https://github.com/<USER>/macclean/releases) when tagged — same files.)
+(Also available on the [Releases page](https://github.com/anilgoudgunda/macclean/releases) when tagged — same files.)
 
 **Option 2 — with Go** (Go >= 1.26):
 
 ```bash
-go install github.com/<USER>/macclean@latest         # lands in ~/go/bin
+go install github.com/anilgoudgunda/macclean@latest         # lands in ~/go/bin
 
 # or from source
-git clone https://github.com/<USER>/macclean && cd macclean && go install .
+git clone https://github.com/anilgoudgunda/macclean && cd macclean && go install .
 ```
 
 Binaries are static (no dependencies) — for macOS only: Apple Silicon and Intel.
