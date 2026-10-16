@@ -15,16 +15,18 @@
 
 ## Install
 
-**Option 1 — prebuilt binary (no Go needed)** — grab it from [Releases](https://github.com/<USER>/macclean/releases):
+**Option 1 — download from this repo (no Go needed)** — binaries live in [`release/`](release/):
 
 ```bash
 # Apple Silicon
-curl -L -o macclean https://github.com/<USER>/macclean/releases/latest/download/macclean-darwin-arm64
+curl -L -o macclean https://raw.githubusercontent.com/<USER>/macclean/main/release/macclean-darwin-arm64
 # Intel Mac? use macclean-darwin-amd64 instead
 
 chmod +x macclean && sudo mv macclean /usr/local/bin/
 macclean scan
 ```
+
+(Also available on the [Releases page](https://github.com/<USER>/macclean/releases) when tagged — same files.)
 
 **Option 2 — with Go** (Go >= 1.26):
 
